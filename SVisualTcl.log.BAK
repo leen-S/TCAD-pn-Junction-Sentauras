@@ -1,0 +1,232 @@
+###########################################
+# Sentaurus Visual T-2022.03-SP2.
+# Tcl log file.
+#------------------------------------------
+# Date: Aug 01, 2025. 02:46:05.
+# Version: 33.0.7745337 (0.7745337)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: iiitdwd.ac.in.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 4.18.0-553.el8_10.x86_64.
+###########################################
+
+load_file /home/iiitdwd/test/p_sweep__0000_des.tdr -fod
+create_plot -dataset p_sweep__0000_des
+select_plots {Plot_p_sweep__0000_des}
+#-> Plot_p_sweep__0000_des
+#-> Plot_p_sweep__0000_des
+#-> p_sweep__0000_des
+set_field_prop ElectricField-X -plot Plot_p_sweep__0000_des -geom p_sweep__0000_des -show_bands
+#-> 0
+set_field_prop ElectricField-Y -plot Plot_p_sweep__0000_des -geom p_sweep__0000_des -show_bands
+#-> 0
+set_field_prop ElectricField-X -plot Plot_p_sweep__0000_des -geom p_sweep__0000_des -show_bands
+#-> 0
+zoom_plot -plot Plot_p_sweep__0000_des -factor 0.909091
+zoom_plot -plot Plot_p_sweep__0000_des -factor 1.1
+zoom_plot -plot Plot_p_sweep__0000_des -factor 0.909091
+zoom_plot -plot Plot_p_sweep__0000_des -factor 1.1
+load_file /home/iiitdwd/test/p_sweep__0005_des.tdr -fod
+create_plot -dataset p_sweep__0005_des
+select_plots {Plot_p_sweep__0005_des}
+#-> Plot_p_sweep__0005_des
+#-> Plot_p_sweep__0005_des
+#-> p_sweep__0005_des
+set_field_prop ElectricField-X -plot Plot_p_sweep__0005_des -geom p_sweep__0005_des -show_bands
+#-> 0
+set_field_prop srhRecombination -plot Plot_p_sweep__0005_des -geom p_sweep__0005_des -show_bands
+#-> 0
+select_plots {Plot_p_sweep__0000_des}
+#-> Plot_p_sweep__0000_des
+set_field_prop srhRecombination -plot Plot_p_sweep__0000_des -geom p_sweep__0000_des -show_bands
+#-> 0
+select_plots {Plot_p_sweep__0005_des}
+#-> Plot_p_sweep__0005_des
+select_plots {Plot_p_sweep__0000_des}
+#-> Plot_p_sweep__0000_des
+create_cutline -plot Plot_p_sweep__0000_des -type y -at 0.0112353
+#-> C1(p_sweep__0000_des)
+create_plot -dataset C1(p_sweep__0000_des) -1d
+select_plots {Plot_C1(p_sweep__0000_des)}
+#-> Plot_C1(p_sweep__0000_des)
+#-> Plot_C1(p_sweep__0000_des)
+set_axis_prop -plot Plot_C1(p_sweep__0000_des) -axis y -type log
+#-> 0
+create_curve -axisX X -axisY srhRecombination -dataset {C1(p_sweep__0000_des)} -plot Plot_C1(p_sweep__0000_des)
+#-> Curve_1
+set_axis_prop -plot Plot_C1(p_sweep__0000_des) -axis x -range {-0.002 0.214224}
+#-> 0
+select_plots {Plot_p_sweep__0000_des}
+#-> Plot_p_sweep__0000_des
+select_plots {Plot_p_sweep__0005_des}
+#-> Plot_p_sweep__0005_des
+select_plots {Plot_p_sweep__0000_des}
+#-> Plot_p_sweep__0000_des
+select_plots {Plot_p_sweep__0005_des}
+#-> Plot_p_sweep__0005_des
+create_cutline -plot Plot_p_sweep__0005_des -type free -points {0.0675393 -0.142354 0 0.0675393 -0.140995 0}
+#-> C1(p_sweep__0005_des)
+create_plot -dataset C1(p_sweep__0005_des) -1d
+select_plots {Plot_C1(p_sweep__0005_des)}
+#-> Plot_C1(p_sweep__0005_des)
+#-> Plot_C1(p_sweep__0005_des)
+select_plots {Plot_p_sweep__0005_des}
+#-> Plot_p_sweep__0005_des
+select_plots {Plot_C1(p_sweep__0005_des)}
+#-> Plot_C1(p_sweep__0005_des)
+move_plot -plot Plot_C1(p_sweep__0005_des) -position {0 0}
+#-> 0
+move_plot -plot Plot_C1(p_sweep__0005_des) -position {0 0}
+#-> 0
+move_plot -plot Plot_C1(p_sweep__0005_des) -position {0 0}
+#-> 0
+move_plot -plot Plot_C1(p_sweep__0005_des) -position {0 0}
+#-> 0
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.8
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.8
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.8
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.8
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.8
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.8
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.8
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.8
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 0.9
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.2
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+zoom_plot -plot Plot_C1(p_sweep__0000_des) -factor 1.1
+select_plots {Plot_p_sweep__0005_des}
+#-> Plot_p_sweep__0005_des
+create_cutline -plot Plot_p_sweep__0005_des -type y -at 0.0430393
+#-> C2(p_sweep__0005_des)
+set_axis_prop -plot Plot_C1(p_sweep__0000_des) -axis y -type log
+#-> 0
+create_curve -axisX X -axisY srhRecombination -dataset {C2(p_sweep__0005_des)} -plot Plot_C1(p_sweep__0000_des)
+#-> Curve_2
+set_axis_prop -plot Plot_C1(p_sweep__0000_des) -axis x -range {-0.002 0.214224}
+#-> 0
+set_cutline_prop C2 -plot Plot_p_sweep__0005_des -pos1 {-0.00135819 0.0491511 0} -pos2 {0.198642 0.0491511 0}
+select_plots {Plot_p_sweep__0000_des}
+#-> Plot_p_sweep__0000_des
+create_cutline -plot Plot_p_sweep__0000_des -type free -points {0.0980985 0.0128196 0 0.0994567 0.0264015 -5.00192e-07}
+#-> C2(p_sweep__0000_des)
+set_axis_prop -plot Plot_C1(p_sweep__0005_des) -axis y -type log
+#-> 0
+create_curve -axisX Distance -axisY srhRecombination -dataset {C2(p_sweep__0000_des)} -plot Plot_C1(p_sweep__0005_des)
+#-> Curve_1
+set_cutline_prop C1 -plot Plot_p_sweep__0000_des -pos1 {-0.000679095 0.0356827 0} -pos2 {0.199321 0.0356827 0}
+select_plots {Plot_p_sweep__0005_des}
+#-> Plot_p_sweep__0005_des
+select_plots {Plot_C1(p_sweep__0005_des)}
+#-> Plot_C1(p_sweep__0005_des)
+set_band_diagram {Plot_C1(p_sweep__0005_des)}
+#-> 0
+set_legend_prop -plot Plot_C1(p_sweep__0005_des) -position {0.452239 -0.0204604}
+#-> 0
+select_plots {Plot_C1(p_sweep__0000_des)}
+#-> Plot_C1(p_sweep__0000_des)
+exit 0
+ 
